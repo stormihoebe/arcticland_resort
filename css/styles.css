@@ -1,11 +1,50 @@
-
+body {
+  background-image: url("../img/bluesparkle.gif");
+}
 .containerindex {
   -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
+    margin-top: 30px;
+    background-color: #353638;
+
 }
 .containerpictures {
   -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
+}
+.bannerimage {
+   position: relative;
+}
+
+#mainheader {
+   position: absolute;
+   top: 70px;
+   font-size: 120px;
+   color: rgba(82, 0, 165, 0.5);
+   padding-left: 35%;
+   font-family: 'Anton', sans-serif;
+ }
+nav {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 5px;
+  font-family: sans-serif;
+  font-size: 1.1em;
+}
+ nav a {
+   text-align: center;
+   padding-bottom: 15px;
+   color: white;
+   padding-left: 15px;
+ }
+.left {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  line-height: 2em;
+}
+p {
+font-family: sans-serif;
 }
