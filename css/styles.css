@@ -48,3 +48,26 @@ nav {
 p {
 font-family: sans-serif;
 }
+a {
+  color: #bbd2f7;
+}
+h1, h2{
+  color: white;
+  text-align: center;
+}
+h1 {
+  font-size: 4em;
+}
+
+
+h2 {
+  font-size: 1.7em;
+}
+h3 {
+  color: white;
+  font-size: 1.5em;
+}
+.accom {
+  background-color: white;
+  color: #620dbc;
+}
